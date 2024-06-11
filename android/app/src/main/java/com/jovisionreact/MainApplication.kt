@@ -1,4 +1,4 @@
-package com.jovisionreactnativetasks
+package com.jovisionreact
 
 import android.app.Application
 import com.facebook.react.PackageList
