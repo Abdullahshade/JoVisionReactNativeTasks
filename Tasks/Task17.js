@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text, Button, StyleSheet } from 'react-native';
 
-export default class Task16 extends Component {
+export default class Task17 extends Component {
   constructor() {
     super();
     this.state = {
@@ -19,7 +19,7 @@ export default class Task16 extends Component {
     return (
       <View style={styles.container}>
         <Button
-          title="Show"
+          title={this.state.showName ? 'Hide' : 'Show'}
           onPress={this.toggleShowName}
         />
         {this.state.showName && (
